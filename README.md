@@ -12,7 +12,7 @@ Simone is a privacy based open source cryptocurrency. It is currently in early d
 
 ## **Networking Information**
 Required Ports:
-- Default Port: 42019
+- Default/P2P Port: 42019
 - RPC Port: 42020
 
 Seed Node DNS A Records:
