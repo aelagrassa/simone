@@ -18,3 +18,5 @@ Required Ports:
 Seed Node DNS A Records:
 - node-nyc-01.smn.network:42019
 - node-sfo-01.smn.network:42019
+
+## **Build Instructions**
