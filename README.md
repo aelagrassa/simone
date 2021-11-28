@@ -20,13 +20,13 @@ Seed Node DNS A Records:
 - node-sfo-01.smn.network:42019
 <br>
 <br>
-## Build Instructions (Ubuntu)
+# Build Instructions (Ubuntu)
 Ubuntu 16.04 - TBD<br>
 Ubuntu 18.04 - TBD<br>
 Ubuntu 20.04 - TBD<br>
 <br>
 <br>
-## Build Instructions (Windows Subsystem for Linux)
+# Build Instructions (Windows Subsystem for Linux)
 Ubuntu 16.04<br>
 Ubuntu 18.04 - TBD<br>
 Ubuntu 20.04 - TBD<br>
