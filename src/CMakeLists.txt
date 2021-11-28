@@ -61,6 +61,7 @@ if (MSVC)
   target_link_libraries(System ws2_32)
 endif ()
 
+#Modified order of libraries. Information provided by grantwwoodford from https://github.com/cryptonotefoundation/cryptonote/pull/17/commits/734dd0a02f59591b385d6937c97b94403a1586f7
 target_link_libraries(ConnectivityTool CryptoNoteCore Logging Crypto P2P Rpc Http Serialization Common System ${Boost_LIBRARIES})
 target_link_libraries(Daemon CryptoNoteCore P2P Rpc Serialization System Http Logging Common Crypto upnpc-static BlockchainExplorer ${Boost_LIBRARIES})
 target_link_libraries(SimpleWallet Wallet NodeRpcProxy Transfers Rpc Http Serialization CryptoNoteCore System Logging Common Crypto ${Boost_LIBRARIES})
