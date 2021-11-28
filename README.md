@@ -10,8 +10,8 @@ Emission Curve: 23 (Rewards will stay nearly constant for many years to come to 
 Difficulty Target: 60 (Difficulty is adjusted once an hour)
 
 ## **Networking Information**
-Default Port: 42019
-RPC Port: 42020<
+- Default Port: 42019
+- RPC Port: 42020
 
 Seed Node DNS A Records:
 - node-nyc-01.smn.network:42019
