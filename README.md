@@ -14,18 +14,19 @@ Difficulty Target: 60 (Difficulty is adjusted once an hour)<br>
 ## **Networking Information**<br>
 Default Port: 42019<br>
 RPC Port: 42020<br>
+<br>
 Seed Node DNS A Records:
 - node-nyc-01.smn.network:42019
 - node-sfo-01.smn.network:42019
 <br>
 <br>
-## **Build Instructions (Ubuntu)**<br>
+## Build Instructions (Ubuntu)<br>
 Ubuntu 16.04 - TBD<br>
 Ubuntu 18.04 - TBD<br>
 Ubuntu 20.04 - TBD<br>
 <br>
 <br>
-## **Build Instructions (Windows Subsystem for Linux)**<br>
+## Build Instructions (Windows Subsystem for Linux)<br>
 **Ubuntu 16.04**<br>
 Ubuntu 18.04 - TBD<br>
 Ubuntu 20.04 - TBD<br>
