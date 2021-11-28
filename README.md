@@ -11,6 +11,7 @@ Simone is a privacy based open source cryptocurrency. It is currently in early d
 - Difficulty Target: 60 (Difficulty is adjusted once an hour)
 
 ## **Networking Information**
+Required Ports:
 - Default Port: 42019
 - RPC Port: 42020
 
