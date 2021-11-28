@@ -1,6 +1,7 @@
-Forked from the [CryptoNote](https://github.com/cryptonotefoundation/cryptonote) cryptocurrency protocol.
+*Forked from the [CryptoNote](https://github.com/cryptonotefoundation/cryptonote) cryptocurrency protocol.*
 <br>
 <br>
+#H1 What is Simone?
 Simone is a privacy based open source cryptocurrency. It is currently in early development and is planned to be used to tip small amounts of money privately and securely to strangers.
 <br>
 <br>
@@ -15,9 +16,14 @@ Default Port: 42019<br>
 RPC Port: 42020<br>
 <br>
 <br>
-**Build Instructions**<br>
+**Build Instructions (Ubuntu)**<br>
 Ubuntu 16.04 - TBD<br>
 Ubuntu 18.04 - TBD<br>
 Ubuntu 20.04 - TBD<br>
-
+<br>
+<br>
+**Build Instructions (Windows Subsystem for Linux)**<br>
+**Ubuntu 16.04**<br>
+Ubuntu 18.04 - TBD<br>
+Ubuntu 20.04 - TBD<br>
 
