@@ -20,4 +20,4 @@ Seed Node DNS A Records:
 - node-sfo-01.smn.network:42019
 
 ## **Build Instructions**
-Simone is currently only supported and tested on Ubuntu Linux, though other distributions would likely work based on the notes from the Ubuntu installs. Windows support is currently in development. For now consider using [WSL](https://docs.microsoft.com/en-us/windows/wsl/install) if you are looking to run a wallet on Windows.
+Simone is currently only supported and tested on Ubuntu Linux, though other distributions would likely work based on the notes from the Ubuntu installs. Windows support is currently in development. If you are looking to run a wallet on Windows consider [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).
