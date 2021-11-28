@@ -1,6 +1,5 @@
 *Forked from the [CryptoNote](https://github.com/cryptonotefoundation/cryptonote) cryptocurrency protocol.*
 <br>
-<br>
 # **What is Simone?**
 Simone is a privacy based open source cryptocurrency. It is currently in early development and is planned to be used to tip small amounts of money privately and securely to strangers.
 
