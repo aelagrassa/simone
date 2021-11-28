@@ -11,7 +11,7 @@ Emission Curve: 23 (Rewards will stay nearly constant for many years to come to 
 Difficulty Target: 60 (Difficulty is adjusted once an hour)<br>
 <br>
 <br>
-## **Networking Information**<br>
+## **Networking Information**
 Default Port: 42019<br>
 RPC Port: 42020<br>
 <br>
@@ -20,14 +20,14 @@ Seed Node DNS A Records:
 - node-sfo-01.smn.network:42019
 <br>
 <br>
-## Build Instructions (Ubuntu)<br>
+## Build Instructions (Ubuntu)
 Ubuntu 16.04 - TBD<br>
 Ubuntu 18.04 - TBD<br>
 Ubuntu 20.04 - TBD<br>
 <br>
 <br>
-## Build Instructions (Windows Subsystem for Linux)<br>
-**Ubuntu 16.04**<br>
+## Build Instructions (Windows Subsystem for Linux)
+Ubuntu 16.04<br>
 Ubuntu 18.04 - TBD<br>
 Ubuntu 20.04 - TBD<br>
 
