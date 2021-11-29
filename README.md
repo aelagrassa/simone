@@ -38,7 +38,9 @@ sudo apt install build-essential git cmake g++ python-dev autotools-dev libicu-d
 ```
 Check the installed version of gcc. Tested and confirmed working with gcc version 5.4.0 \
 \
-`gcc -v`\
+```
+gcc -v
+```
 `Expected output: gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)`\
 \
 Download and compile boost version 1.58.0. Depending on your system this may take a while. \
