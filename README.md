@@ -79,14 +79,13 @@ Simone should now be compiled and ready to go. You can now start the node. \
 `./Simone`
 
 ## **Other Useful Notes**
-\
 ### Running Simone as a serivce in Ubuntu
 \
 Create the required service file.\
 \
 `sudo nano /etc/systemd/system/simone.service`\
 \
-Enter the following text. Update as needed for your setup. These configuration should work if you followed the install guides above.\
+Enter the following text. Update as needed for your setup. These configuration should work if you followed the install guides above.
 ```
 [Unit]
 Description=Simone Node
