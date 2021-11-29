@@ -32,9 +32,9 @@ and attempt to compile it is extremely likely that it will NOT work.
 
 Perform updates and install the prerequisite software to complile Simone
 \
-`sudo apt update \
-sudo apt upgrade \
-sudo apt install build-essential git cmake g++ python-dev autotools-dev libicu-dev libbz2-dev` \
+`sudo apt update` \
+`sudo apt upgrade` \
+`sudo apt install build-essential git cmake g++ python-dev autotools-dev libicu-dev libbz2-dev` \
 \
 Check the installed version of gcc. Tested and confirmed working with gcc version 5.4.0 \
 `gcc -v`
