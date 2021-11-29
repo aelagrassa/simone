@@ -40,6 +40,7 @@ Check the installed version of gcc. Tested and confirmed working with gcc versio
 gcc -v
 ```
 `Expected output: gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)`\
+\
 Download and compile boost version 1.58.0. Depending on your system this may take a while. \
 ```
 wget http://downloads.sourceforge.net/project/boost/boost/1.58.0/boost_1_58_0.tar.gz
@@ -53,6 +54,7 @@ Check the installed version of boost. Tested and confirmed working with boost ve
 cat /usr/local/include/boost/version.hpp | grep "BOOST_LIB_VERSION"
 ```
 `Expected output: #define BOOST_LIB_VERSION "1_58"`\
+\
 Create a new user to run the Simone node and wallet
 ```
 cd
