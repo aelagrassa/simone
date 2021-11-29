@@ -93,10 +93,10 @@ After=network.target
 
 [Service]
 User=root
-WorkingDirectory=/home/simone/build/release/src
+WorkingDirectory=/home/simone/simone/build/release/src
 
 Type=simple
-ExecStart=/home/simone/build/release/src/Simone
+ExecStart=/home/simone/simone/build/release/src/Simone
 StandardOutput=null
 StandardError=null
 
@@ -105,3 +105,14 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
+Reload the systemctl daemon\
+`sudo systemctl daemon-reload`\
+\
+Start the simone service
+`sudo systemctl start simone.service`\
+\
+Check the status of the simone service and ensure it is running\
+`sudo systemctl status simone.service`\
+\
+Enable the simone service to automatically launch on startup
+`sudo systemctl enable example.service`\
