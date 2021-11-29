@@ -66,20 +66,18 @@ su simone
 cd
 ```
 \
-Clone the repository\
-\
+Clone the repository
 ```
 git clone https://github.com/aelagrassa/simone
 ```
 \
-Change to the repository directory and compile. Depending on your system this may take a while.\
-\
+Change to the repository directory and compile. Depending on your system this may take a while.
 ```
 cd simone
 make
 ```
 \
-Simone should now be compiled and ready to go. You can now start the node. \
+Simone should now be compiled and ready to go. You can now start the node.
 \
 ```
 cd build/release/src
