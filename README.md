@@ -56,10 +56,10 @@ Check the installed version of boost. Tested and confirmed working with boost ve
 \
 Create a new user to run the Simone node and wallet \
 \ 
-`cd` \
-`sudo adduser simone` \
+`cd`\
+`sudo adduser simone`\
 \
-Change to the new user \
+Change to the new user\
 \ 
 `su simone`\
 `cd`\
