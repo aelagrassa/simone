@@ -52,8 +52,8 @@ Check the installed version of boost. Tested and confirmed working with boost ve
 ```
 cat /usr/local/include/boost/version.hpp | grep "BOOST_LIB_VERSION"
 ```
-`Expected output: #define BOOST_LIB_VERSION "1_58"`
-Create a new user to run the Simone node and wallet \
+`Expected output: #define BOOST_LIB_VERSION "1_58"`\
+Create a new user to run the Simone node and wallet
 ```
 cd
 sudo adduser simone
