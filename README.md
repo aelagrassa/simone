@@ -31,6 +31,7 @@ Note that we require a specific version of gcc and boost in order for the softwa
 and attempt to compile it is extremely likely that it will NOT work.
 
 Perform updates and install the prerequisite software to complile Simone
+\
 `sudo apt update
 sudo apt upgrade
 sudo apt install build-essential git cmake g++ python-dev autotools-dev libicu-dev libbz2-dev`
