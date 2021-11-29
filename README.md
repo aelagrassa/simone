@@ -88,22 +88,20 @@ Create the required service file.\
 \
 Enter the following text. Update as needed for your setup. These configuration should work if you followed the install guides above.\
 \
-{
-[Unit]
-Description=Simone Node
-After=network.target
+   [Unit]
+   Description=Simone Node
+   After=network.target
 
-[Service]
-User=root
-WorkingDirectory=/home/simone/build/release/src
+   [Service]
+   User=root
+   WorkingDirectory=/home/simone/build/release/src
 
-Type=simple
-ExecStart=/home/simone/build/release/src/Simone
-StandardOutput=null
-StandardError=null
+   Type=simple
+   ExecStart=/home/simone/build/release/src/Simone
+   StandardOutput=null
+   StandardError=null
 
-Restart=always
+   Restart=always
 
-[Install]
-WantedBy=multi-user.target
-}
+   [Install]
+   WantedBy=multi-user.target
