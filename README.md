@@ -88,7 +88,8 @@ Create the required service file.\
 \
 Enter the following text. Update as needed for your setup. These configuration should work if you followed the install guides above.\
 \
-`[Unit]
+{
+[Unit]
 Description=Simone Node
 After=network.target
 
@@ -104,4 +105,5 @@ StandardError=null
 Restart=always
 
 [Install]
-WantedBy=multi-user.target`
+WantedBy=multi-user.target
+}
