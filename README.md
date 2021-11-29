@@ -31,20 +31,16 @@ Note that we require a specific version of gcc and boost in order for the softwa
 and attempt to compile it is extremely likely that it will NOT work.
 
 Perform updates and install the prerequisite software to complile Simone
-\
 ```
 sudo apt update & sudo apt upgrade -y
 sudo apt install build-essential git cmake g++ python-dev autotools-dev libicu-dev libbz2-dev
 ```
 Check the installed version of gcc. Tested and confirmed working with gcc version 5.4.0 \
-\
 ```
 gcc -v
 ```
 `Expected output: gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)`\
-\
 Download and compile boost version 1.58.0. Depending on your system this may take a while. \
-\
 ```
 wget http://downloads.sourceforge.net/project/boost/boost/1.58.0/boost_1_58_0.tar.gz
 tar -zxvf boost_1_58_0.tar.gz
@@ -53,20 +49,16 @@ cd boost_1_58_0
 `sudo ./b2 --with=all install`
 ```
 Check the installed version of boost. Tested and confirmed working with boost version 1.58.0 \
-\
 ```
 cat /usr/local/include/boost/version.hpp | grep "BOOST_LIB_VERSION"
 ```
-`Expected output: #define BOOST_LIB_VERSION "1_58"` \
-\
+`Expected output: #define BOOST_LIB_VERSION "1_58"`
 Create a new user to run the Simone node and wallet \
-\
 ```
 cd
 sudo adduser simone
 ```
 Change to the new user\
-\
 ```
 su simone
 cd
