@@ -23,12 +23,10 @@ Seed Node DNS A Records:
 ## **Build Instructions**
 Simone is currently only supported and tested on Ubuntu Linux, though other distributions would likely work based on the notes from the Ubuntu installs. Windows support is currently in development. If you are looking to run a wallet on Windows consider [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).
 
-### ** Ubuntu 16.04 **
+### Ubuntu 16.04
 
-These instructions assume a clean build of Ubuntu 16.04 installed directly from the latest ISO provided by Cannonical, which
-can be found here [https://releases.ubuntu.com/16.04/]. Build time will depend on your hardware. On a VM with two dedicated
-cores and 4GB of RAM the deployment process takes about 30 minutes.
-
+These instructions assume a clean build of Ubuntu 16.04 installed directly from the latest ISO provided by Cannonical, which can be found here [https://releases.ubuntu.com/16.04/]. Build time will depend on your hardware. On a VM with two dedicated cores and 4GB of RAM the deployment process takes about 30 minutes.\
+\
 Note that we require a specific version of gcc and boost in order for the software to complile. If you simply clone the repository
 and attempt to compile it is extremely likely that it will NOT work.
 
