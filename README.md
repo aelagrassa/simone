@@ -49,7 +49,7 @@ Download and compile boost version 1.58.0. Depending on your system this may tak
 `./bootstrap.sh` \
 `sudo ./b2 --with=all install` \
 \
-Check the installed version of boost. Tested and confirmed working with boost version 1.58.0\
+Check the installed version of boost. Tested and confirmed working with boost version 1.58.0 \
 \
 `cat /usr/local/include/boost/version.hpp | grep "BOOST_LIB_VERSION"` \
 `Expected output: #define BOOST_LIB_VERSION "1_58"` \
