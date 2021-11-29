@@ -83,7 +83,6 @@ Simone should now be compiled and ready to go. You can now start the node.
 cd build/release/src
 ./Simone
 ```
-\
 ## **Other Useful Notes**
 ### Running Simone on boot as a service in Ubuntu
 \
@@ -114,13 +113,18 @@ Restart=always
 WantedBy=multi-user.target
 ```
 Reload the systemctl daemon\
-`sudo systemctl daemon-reload`\
-\
+```
+sudo systemctl daemon-reload
+```
 Start the simone service\
-`sudo systemctl start simone.service`\
-\
+```
+sudo systemctl start simone.service
+```
 Check the status of the simone service and ensure it is running\
-`sudo systemctl status simone.service`\
-\
+```
+sudo systemctl status simone.service
+```
 Enable the simone service to automatically launch on startup\
-`sudo systemctl enable example.service`
+```
+sudo systemctl enable simone.service
+```
