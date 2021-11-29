@@ -72,8 +72,10 @@ Clone the repository\
 \
 Change to the repository directory and compile. Depending on your system this may take a while.\
 \
-`cd simone` \
-`make` \
+```
+cd simone
+make
+```
 \
 Simone should now be compiled and ready to go. You can now start the node. \
 \
@@ -85,7 +87,9 @@ Simone should now be compiled and ready to go. You can now start the node. \
 \
 Create the required service file.\
 \
-`sudo nano /etc/systemd/system/simone.service`\
+```
+sudo nano /etc/systemd/system/simone.service
+```
 \
 Enter the following text. Update as needed for your setup. This configuration should work if you followed the install guides above.
 ```
