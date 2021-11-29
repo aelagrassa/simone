@@ -60,7 +60,7 @@ Create a new user to run the Simone node and wallet \
 `sudo adduser simone`\
 \
 Change to the new user\
-\ 
+\
 `su simone`\
 `cd`\
 \
