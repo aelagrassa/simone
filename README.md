@@ -79,7 +79,7 @@ Simone should now be compiled and ready to go. You can now start the node. \
 `./Simone`
 
 ## **Other Useful Notes**
-### Running Simone as a serivce in Ubuntu
+### Running Simone on boot as a service in Ubuntu
 \
 Create the required service file.\
 \
