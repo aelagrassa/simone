@@ -45,26 +45,32 @@ gcc -v
 \
 Download and compile boost version 1.58.0. Depending on your system this may take a while. \
 \
-`wget http://downloads.sourceforge.net/project/boost/boost/1.58.0/boost_1_58_0.tar.gz` \
-`tar -zxvf boost_1_58_0.tar.gz` \
-`cd boost_1_58_0` \
-`./bootstrap.sh` \
-`sudo ./b2 --with=all install` \
-\
+```
+wget http://downloads.sourceforge.net/project/boost/boost/1.58.0/boost_1_58_0.tar.gz
+tar -zxvf boost_1_58_0.tar.gz
+cd boost_1_58_0
+./bootstrap.sh
+`sudo ./b2 --with=all install`
+```
 Check the installed version of boost. Tested and confirmed working with boost version 1.58.0 \
 \
-`cat /usr/local/include/boost/version.hpp | grep "BOOST_LIB_VERSION"` \
+```
+cat /usr/local/include/boost/version.hpp | grep "BOOST_LIB_VERSION"
+```
 `Expected output: #define BOOST_LIB_VERSION "1_58"` \
 \
 Create a new user to run the Simone node and wallet \
 \
-`cd`\
-`sudo adduser simone`\
-\
+```
+cd
+sudo adduser simone
+```
 Change to the new user\
 \
-`su simone`\
-`cd`\
+```
+su simone
+cd
+```
 \
 Clone the repository\
 \
