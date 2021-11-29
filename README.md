@@ -87,7 +87,6 @@ Create the required service file.\
 `sudo nano /etc/systemd/system/simone.service`\
 \
 Enter the following text. Update as needed for your setup. These configuration should work if you followed the install guides above.\
-\
 ```
 [Unit]
 Description=Simone Node
