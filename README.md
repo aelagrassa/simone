@@ -78,9 +78,9 @@ Simone should now be compiled and ready to go. You can now start the node. \
 `cd build/release/src` \
 `./Simone`
 
-## **Other Useful Notes**\
+## **Other Useful Notes**
 \
-### Running Simone as a serivce in Ubuntu\
+### Running Simone as a serivce in Ubuntu
 \
 Create the required service file.\
 \
