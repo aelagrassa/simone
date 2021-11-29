@@ -115,4 +115,4 @@ Check the status of the simone service and ensure it is running\
 `sudo systemctl status simone.service`\
 \
 Enable the simone service to automatically launch on startup\
-`sudo systemctl enable example.service`\
+`sudo systemctl enable example.service`
