@@ -22,3 +22,62 @@ Seed Node DNS A Records:
 
 ## **Build Instructions**
 Simone is currently only supported and tested on Ubuntu Linux, though other distributions would likely work based on the notes from the Ubuntu installs. Windows support is currently in development. If you are looking to run a wallet on Windows consider [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).
+
+### ** Ubuntu 16.04 **
+`
+# These instructions assume a clean build of Ubuntu 16.04 installed directly from the latest ISO provided by Cannonical, which
+# can be found here [https://releases.ubuntu.com/16.04/]. Build time will depend on your hardware. On a VM with two dedicated
+# cores and 4GB of RAM the deployment process takes about 30 minutes.
+#
+# Note that we require a specific version of gcc and boost in order for the software to complile. If you simply clone the repository
+# and attempt to compile it is extremely likely that it will NOT work.
+
+# Perform updates and install the prerequisite software to complile Simone
+
+sudo apt update
+sudo apt upgrade
+sudo apt install build-essential git cmake g++ python-dev autotools-dev libicu-dev libbz2-dev
+
+# Check the installed version of gcc. Tested and confirmed working with gcc version 5.4.0
+
+gcc -v
+
+# Expected output: gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)
+
+# Download and compile boost version 1.58.0. Depending on your system this may take a while.
+
+wget http://downloads.sourceforge.net/project/boost/boost/1.58.0/boost_1_58_0.tar.gz
+tar -zxvf boost_1_58_0.tar.gz
+cd boost_1_58_0
+./bootstrap.sh
+sudo ./b2 --with=all install
+
+# Check the installed version of boost. Tested and confirmed working with boost version 1.58.0
+cat /usr/local/include/boost/version.hpp | grep "BOOST_LIB_VERSION"
+
+# Expected output: 
+
+# Create a new user to run the Simone node and wallet
+
+cd
+sudo adduser simone
+
+# Change to the new user
+
+su simone
+cd
+
+# Clone the repository
+
+git clone https://github.com/aelagrassa/simone
+
+# Change to the repository directory and compile. Depending on your system this may take a while.
+
+cd simone
+make
+
+# Simone should now be compiled and ready to go. You can now start the node.
+
+cd build/release/src
+./Simone
+`
