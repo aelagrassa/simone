@@ -112,19 +112,19 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
-Reload the systemctl daemon\
+Reload the systemctl daemon
 ```
 sudo systemctl daemon-reload
 ```
-Start the simone service\
+Start the simone service
 ```
 sudo systemctl start simone.service
 ```
-Check the status of the simone service and ensure it is running\
+Check the status of the simone service and ensure it is running
 ```
 sudo systemctl status simone.service
 ```
-Enable the simone service to automatically launch on startup\
+Enable the simone service to automatically launch on startup
 ```
 sudo systemctl enable simone.service
 ```
