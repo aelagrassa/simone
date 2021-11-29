@@ -87,7 +87,6 @@ cd build/release/src
 ### Running Simone on boot as a service in Ubuntu
 \
 Create the required service file.\
-\
 ```
 sudo nano /etc/systemd/system/simone.service
 ```
