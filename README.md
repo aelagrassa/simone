@@ -68,7 +68,9 @@ cd
 \
 Clone the repository\
 \
-`git clone https://github.com/aelagrassa/simone` \
+```
+git clone https://github.com/aelagrassa/simone
+```
 \
 Change to the repository directory and compile. Depending on your system this may take a while.\
 \
@@ -79,9 +81,11 @@ make
 \
 Simone should now be compiled and ready to go. You can now start the node. \
 \
-`cd build/release/src` \
-`./Simone`
-
+```
+cd build/release/src
+./Simone
+```
+\
 ## **Other Useful Notes**
 ### Running Simone on boot as a service in Ubuntu
 \
