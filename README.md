@@ -6,8 +6,8 @@ Simone is a privacy based open source cryptocurrency. It is currently in early d
 ## **Coin Information**<br>
 - Max Coin Supply: 18446744073709551616<br>
 - First Block Reward: ~22,000 SMN
-- Emission Curve: 23 (Rewards will stay nearly constant for many years to come to support low cost and frequent transactions)<br>
-- Difficulty Target: 60 (Difficulty is adjusted once an hour)
+- Emission Curve: 23
+- Difficulty Target: 60 Seconds
 
 ## **Networking Information**
 Required Ports:
