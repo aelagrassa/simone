@@ -210,5 +210,3 @@ Enable the simone service to automatically launch on startup
 ```
 sudo systemctl enable simone.service
 ```
-sudo systemctl enable simone.service
-```
