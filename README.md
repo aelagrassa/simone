@@ -25,7 +25,7 @@ Simone is currently only supported and tested on Ubuntu Linux, though other dist
 
 ### Ubuntu 16.04
 
-These instructions assume a clean build of Ubuntu 16.04 installed directly from the latest ISO provided by Cannonical, which can be found [here] (https://releases.ubuntu.com/16.04). Build time will depend on your hardware. On a VM with two dedicated cores and 4GB of RAM the deployment process takes about 30 minutes.\
+These instructions assume a clean build of Ubuntu 16.04 installed directly from the latest ISO provided by Cannonical, which can be found [here](https://releases.ubuntu.com/16.04). Build time will depend on your hardware. On a VM with two dedicated cores and 4GB of RAM the deployment process takes about 30 minutes.\
 \
 Note that we require a specific version of gcc and boost in order for the software to complile. If you simply clone the repository
 and attempt to compile it is extremely likely that it will NOT work.
@@ -81,7 +81,7 @@ cd build/release/src
 ```
 ### Ubuntu 18.04
 
-These instructions assume a clean build of Ubuntu 18.04 installed directly from the latest ISO provided by Cannonical, which can be found [here] (https://releases.ubuntu.com/18.04). Build time will depend on your hardware. On a VM with two dedicated cores and 4GB of RAM the deployment process takes about 30 minutes.\
+These instructions assume a clean build of Ubuntu 18.04 installed directly from the latest ISO provided by Cannonical, which can be found [here](https://releases.ubuntu.com/18.04). Build time will depend on your hardware. On a VM with two dedicated cores and 4GB of RAM the deployment process takes about 30 minutes.\
 \
 Note that we require a specific version of gcc and boost in order for the software to complile. If you simply clone the repository
 and attempt to compile it is extremely likely that it will NOT work.
