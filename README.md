@@ -102,12 +102,10 @@ gcc -v
 `Expected output: gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)`\
 \
 Uninstall gcc 7.5 and prepare to install an earlier version
-\
 ```
 sudo apt purge gcc-7
 ```
-\
-Install gcc version 5.\
+Install gcc version 5.
 ```
 sudo apt install build-essential software-properties-common -y
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
