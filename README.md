@@ -19,8 +19,10 @@ Required Ports:
 - RPC Port: 42020
 
 Seed Node DNS A Records:
-- node-nyc-01.smn.network:42019
-- node-sfo-01.smn.network:42019
+- node-nyc-01.smn.network
+- node-sfo-01.smn.network
+- node-ams-01.smn.network
+- node-fra-01.smn.network
 
 ## **Build Instructions**
 Simone is currently only supported and tested on Ubuntu Linux, though other distributions would likely work based on the notes from the Ubuntu installs. Windows support is currently in development. If you are looking to run a wallet on Windows consider [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).
