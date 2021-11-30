@@ -109,6 +109,7 @@ const std::initializer_list<const char*> SEED_NODES = {
   "node-nyc-01.smn.network:42019",
   "node-sfo-01.smn.network:42019",
   "node-ams-01.smn.network:42019",
+  "node-fra-01.smn.network:42019",
 };
 
 struct CheckpointData {
