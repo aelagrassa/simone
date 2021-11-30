@@ -196,7 +196,7 @@ Description=Simone Node
 After=network.target
 
 [Service]
-User=root
+User=simone
 WorkingDirectory=/home/simone/simone/build/release/src
 
 Type=simple
