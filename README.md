@@ -161,6 +161,22 @@ cd build/release/src
 ./Simone
 ```
 
+## **Mining Simone**
+Because Simone is a CryptoNote fork any miners that work with CryptoNote will likely work with Simone but have yet to be tested. Mining can be done through the included CPU miner or simplewallet CLI itself. To begin mining you can use the following steps:
+\
+\
+Note your wallet address either using the GUI or simplewallet\
+\
+Navigate to the src folder where the miner is contained
+```
+cd simone\build\release\src
+```
+Launch the miner referencing your address
+```
+./miner --address SMN1Ue38d..............
+```
+Enjoy your warm and fuzzies for helping the network as well as enjoy some SMN as compensation
+
 ## **Other Useful Notes**
 ### Running Simone on boot as a service in Ubuntu
 \
