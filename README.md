@@ -169,7 +169,7 @@ cd build/release/src
 ## **Other Useful Notes**
 ### Running Simone on boot as a service in Ubuntu
 \
-Create the required service file.\
+Create the required service file.
 ```
 sudo nano /etc/systemd/system/simone.service
 ```
@@ -210,5 +210,5 @@ Enable the simone service to automatically launch on startup
 ```
 sudo systemctl enable simone.service
 ```
-stemctl enable simone.service
+sudo systemctl enable simone.service
 ```
