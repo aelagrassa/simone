@@ -121,7 +121,7 @@ Check the installed version of gcc
 ```
 gcc -v
 ```
-`gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1)`\
+`Expected output: gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1)`\
 \
 Download and compile boost version 1.58.0. Depending on your system this may take a while. \
 ```
