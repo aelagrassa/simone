@@ -83,50 +83,6 @@ Simone should now be compiled and ready to go. You can now start the node.
 cd build/release/src
 ./Simone
 ```
-## **Other Useful Notes**
-### Running Simone on boot as a service in Ubuntu
-\
-Create the required service file.\
-```
-sudo nano /etc/systemd/system/simone.service
-```
-\
-Enter the following text. Update as needed for your setup. This configuration should work if you followed the install guides above.
-```
-[Unit]
-Description=Simone Node
-After=network.target
-
-[Service]
-User=root
-WorkingDirectory=/home/simone/simone/build/release/src
-
-Type=simple
-ExecStart=/home/simone/simone/build/release/src/Simone
-StandardOutput=null
-StandardError=null
-
-Restart=always
-
-[Install]
-WantedBy=multi-user.target
-```
-Reload the systemctl daemon
-```
-sudo systemctl daemon-reload
-```
-Start the simone service
-```
-sudo systemctl start simone.service
-```
-Check the status of the simone service and ensure it is running
-```
-sudo systemctl status simone.service
-```
-Enable the simone service to automatically launch on startup
-```
-sudo systemctl enable simone.service
-```
 ### Ubuntu 18.04
 
 These instructions assume a clean build of Ubuntu 18.04 installed directly from the latest ISO provided by Cannonical, which can be found [here] (https://releases.ubuntu.com/16.04). Build time will depend on your hardware. On a VM with two dedicated cores and 4GB of RAM the deployment process takes about 30 minutes.\
@@ -251,5 +207,51 @@ sudo systemctl status simone.service
 ```
 Enable the simone service to automatically launch on startup
 ```
+sudo sy
+
+## **Other Useful Notes**
+### Running Simone on boot as a service in Ubuntu
+\
+Create the required service file.\
+```
+sudo nano /etc/systemd/system/simone.service
+```
+\
+Enter the following text. Update as needed for your setup. This configuration should work if you followed the install guides above.
+```
+[Unit]
+Description=Simone Node
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/simone/simone/build/release/src
+
+Type=simple
+ExecStart=/home/simone/simone/build/release/src/Simone
+StandardOutput=null
+StandardError=null
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+Reload the systemctl daemon
+```
+sudo systemctl daemon-reload
+```
+Start the simone service
+```
+sudo systemctl start simone.service
+```
+Check the status of the simone service and ensure it is running
+```
+sudo systemctl status simone.service
+```
+Enable the simone service to automatically launch on startup
+```
 sudo systemctl enable simone.service
+```
+stemctl enable simone.service
 ```
