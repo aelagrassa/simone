@@ -2,9 +2,10 @@
 <br>
 # **What is Simone?**
 Simone is a privacy based open source cryptocurrency. It is currently in early development and is planned to be used to tip small amounts of money privately and securely to strangers.
-## **How much money is simone worth?**<br>
+## **How much money is Simone (SMN) worth?**<br>
 None.
 ## **Coin Information**<br>
+- Abbreviation: SMN
 - Max Coin Supply: 18446744073709551616<br>
 - First Block Reward: ~22,000 SMN
 - Emission Curve: 23
