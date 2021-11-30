@@ -105,7 +105,7 @@ Uninstall gcc 7.5 and prepare to install an earlier version
 ```
 sudo apt purge gcc-7
 ```
-Install gcc version 5.
+Install gcc version 5
 ```
 sudo apt install build-essential software-properties-common -y
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
