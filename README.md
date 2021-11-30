@@ -173,7 +173,11 @@ cd simone\build\release\src
 ```
 Launch the miner referencing your address
 ```
-./miner --address SMN1Ue38d..............
+./simplewallet
+```
+Start the miner, the number signifies how many threads you are willing to devote to mining
+```
+start_mining 1
 ```
 Enjoy your warm and fuzzies for helping the network as well as enjoy some SMN as compensation
 
