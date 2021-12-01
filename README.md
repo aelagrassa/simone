@@ -27,6 +27,7 @@ Seed Node DNS A Records:
 ## **Build Instructions**
 Simone is currently only supported and tested on Ubuntu Linux, though other distributions would likely work based on the notes from the Ubuntu installs. Windows support is currently in development. If you are looking to run a wallet on Windows consider [WSL](https://docs.microsoft.com/en-us/windows/wsl/install). If you choose to use WSL simply create a new instance of Ubuntu 16.04 or 18.04 and follow the steps listed below.
 \
+\
 For the casual user WSL or a virtual machine running Ubuntu 16.04 would be the easiest, albeit least secure, option. 
 
 ### Ubuntu 16.04
