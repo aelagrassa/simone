@@ -184,7 +184,7 @@ start_mining 1
 Enjoy your warm and fuzzies for helping the network as well as enjoy some SMN as compensation
 
 ## **Other Useful Notes**
-### Installing the Simone GUI Wallet###
+### Installing the Simone GUI Wallet ###
 If you have a GUI and are interested in a more user-friendly alternative to Simone's **simplewallet** consider compiling and installing the Simone GUI wallet. Instructions can be found [here](https://github.com/aelagrassa/simonewallet).
 
 ### Running Simone on boot as a service in Ubuntu
