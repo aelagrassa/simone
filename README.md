@@ -30,6 +30,12 @@ Simone is currently only supported and tested on Ubuntu Linux, though other dist
 \
 For the casual user WSL or a virtual machine running Ubuntu 16.04 would be the easiest, albeit least secure, option. 
 
+### WSL
+If you are running Windows 11 or some recent versions of Windows 10 you can install the Simone node, wallet, and GUI wallet by leveraging WSL. To get started open an administrative CMD prompt and enter:
+```
+wsl --install -d Ubuntu-16.04
+```
+Once your Ubuntu instance is set up follow the **Ubuntu 16.04** section of this guide.
 ### Ubuntu 16.04
 
 These instructions assume a clean build of Ubuntu 16.04 installed directly from the latest ISO provided by Cannonical, which can be found [here](https://releases.ubuntu.com/16.04). Build time will depend on your hardware. On a VM with two dedicated cores and 4GB of RAM the deployment process takes about 30 minutes.\
