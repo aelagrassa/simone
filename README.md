@@ -51,7 +51,7 @@ wget http://downloads.sourceforge.net/project/boost/boost/1.58.0/boost_1_58_0.ta
 tar -zxvf boost_1_58_0.tar.gz
 cd boost_1_58_0
 ./bootstrap.sh
-`sudo ./b2 --with=all install`
+sudo ./b2 --with=all install
 ```
 Check the installed version of boost. Tested and confirmed working with boost version 1.58.0 \
 ```
