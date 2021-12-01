@@ -25,7 +25,7 @@ Seed Node DNS A Records:
 - node-fra-01.smn.network
 
 ## **Build Instructions**
-Simone is currently only supported and tested on Ubuntu Linux, though other distributions would likely work based on the notes from the Ubuntu installs. Windows support is currently in development. If you are looking to run a wallet on Windows consider [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).
+Simone is currently only supported and tested on Ubuntu Linux, though other distributions would likely work based on the notes from the Ubuntu installs. Windows support is currently in development. If you are looking to run a wallet on Windows consider [WSL](https://docs.microsoft.com/en-us/windows/wsl/install). If you choose to use WSL simply create a new instance of Ubuntu 16.04 or 18.04 and follow the steps listed below.
 
 ### Ubuntu 16.04
 
@@ -184,6 +184,9 @@ start_mining 1
 Enjoy your warm and fuzzies for helping the network as well as enjoy some SMN as compensation
 
 ## **Other Useful Notes**
+### Installing the Simone GUI Wallet###
+If you have a GUI and are interested in a more user-friendly alternative to Simone's **simplewallet** consider compiling and installing the Simone GUI wallet. Instructions can be found [here](https://github.com/aelagrassa/simonewallet).
+
 ### Running Simone on boot as a service in Ubuntu
 \
 Create the required service file.
